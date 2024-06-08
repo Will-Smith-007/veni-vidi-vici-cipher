@@ -9,4 +9,3 @@ def cipher(text: str, shift: int) -> str:
         else:
             ciphertext += char  # If it isn't a letter, do nothing
     return ciphertext
-
